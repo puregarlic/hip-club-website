@@ -1,6 +1,25 @@
 import React from 'react'
-import { Box } from 'rebass'
+import { Link } from 'react-router-dom'
+import { Box, Flex, Heading, Link as NavLink } from 'rebass'
 
-export const NavBar = () => {
-  return <Box width={1}>Navigation</Box>
-}
+export const NavBar = () => (
+  <Flex py={4}>
+    <Box width={[1, 1 / 2]}>
+      <Heading>OSU Entrepreneurship Club</Heading>
+    </Box>
+    <Flex width={[1, 1 / 2]} justifyContent="space-around" alignItems="center">
+      <NavLink>
+        <Link to="/">Home</Link>
+      </NavLink>
+      <NavLink>
+        <Link to="/about">About</Link>
+      </NavLink>
+      <NavLink>
+        <Link to="/events">Events</Link>
+      </NavLink>
+      <NavLink>
+        <Link to="/contact">Contact</Link>
+      </NavLink>
+    </Flex>
+  </Flex>
+)
