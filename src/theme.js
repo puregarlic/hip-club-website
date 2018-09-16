@@ -16,7 +16,7 @@ export const theme = {
     grey: lighten(0.4, black),
     lightGrey: lighten(0.6, black)
   },
-  space: magnify([1, 2, 3, 5, 8, 13, 21, 34], 1.5),
+  space: magnify([1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377], 1.5),
   breakpoints: [425, 768, 1024],
   fonts: {
     sans: 'system-ui, sans-serif',
