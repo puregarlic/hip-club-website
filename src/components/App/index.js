@@ -8,20 +8,10 @@ import { About } from '../About'
 import { Events } from '../Events'
 import { Contact } from '../Contact'
 
-import logo from './logo.svg'
-import './App.css'
-
 export const App = () => (
   <Router>
-    <div className="App">
+    <div>
       <NavBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to React</h1>
-      </header>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
       <Route path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/events" exact component={Events} />

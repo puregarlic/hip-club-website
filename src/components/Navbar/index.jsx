@@ -4,10 +4,12 @@ import { Box, Flex, Heading, Link as NavLink } from 'rebass'
 
 export const NavBar = () => (
   <Flex py={4}>
-    <Box width={[1, 1 / 2]}>
-      <Heading>OSU Entrepreneurship Club</Heading>
-    </Box>
-    <Flex width={[1, 1 / 2]} justifyContent="space-around" alignItems="center">
+    <Flex width={[1, null, 1 / 2]} justifyContent="space-around">
+      <Box>
+        <Heading>OSU Entrepreneurship Club</Heading>
+      </Box>
+    </Flex>
+    <Flex width={[1, null, 1 / 2]} justifyContent="space-around" alignItems="center">
       <NavLink>
         <Link to="/">Home</Link>
       </NavLink>
