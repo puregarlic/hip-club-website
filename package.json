@@ -16,5 +16,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "guppy": {
+    "id": "hip-club-website",
+    "name": "hip-club-website",
+    "type": "create-react-app",
+    "color": "#D73F09",
+    "icon": null,
+    "createdAt": 1537079056837
   }
 }
