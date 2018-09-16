@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 import { Box, Flex, Heading, Link as NavLink } from 'rebass'
 
 export const NavBar = () => (
-  <Flex py={4}>
-    <Flex width={[1, null, 1 / 2]} justifyContent="space-around">
+  <Flex py={6}>
+    <Flex width={[1, null, 1 / 3]} justifyContent="space-around">
       <Box>
         <Heading>OSU Entrepreneurship Club</Heading>
       </Box>
     </Flex>
-    <Flex width={[1, null, 1 / 2]} justifyContent="space-around" alignItems="center">
+    <Flex width={[1, null, 2 / 3]} justifyContent="space-evenly" alignItems="center">
       <NavLink>
         <Link to="/">Home</Link>
       </NavLink>
